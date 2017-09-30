@@ -5,7 +5,7 @@
 
 [Урок 5](https://lenamas.github.io/lesson_5/) - Знакомство с основами CSS
 
-[Урок 6](https://lenamas.github.io/lesson_6/) - Позиционирование в CSS
+[Урок 6.1](https://lenamas.github.io/lesson_6.1/) и [Урок 6.2](https://lenamas.github.io/lesson_6.2/) - Позиционирование в CSS
 
 [Урок 7](https://lenamas.github.io/lesson_7/) - Верстка первого макета
 
