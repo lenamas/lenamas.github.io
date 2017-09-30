@@ -1,0 +1,63 @@
+.section {
+	padding: 30px 0;
+}
+
+.header {
+	font-family: Tahoma, sans-serif;
+	font-size: 24px;
+	line-height: 1.6;
+	color: #333333;
+	margin: 60px auto;
+}
+
+.header span {
+	display: block;
+}
+
+.video {
+	margin-bottom: 20px;
+}
+
+.form-header, .feature-header, .clients-header{
+	font-size: 20px;
+	font-weight: 900;
+	margin-bottom: 20px;
+}
+
+.form {
+	border: 5px solid #2727d9;
+	padding: 30px 20px;
+}
+
+.form-btn, .form-btn:hover {
+	margin: 10px auto;
+	background-color: #2727d9;
+}
+
+.form input {
+	margin-bottom: 12px;
+}
+
+.feature {
+	margin: 60px auto;
+}
+
+.feature p {
+	margin-top: 20px;
+}
+
+.feature-box {
+	height: 160px;
+}
+
+.clients {
+	margin-top: 60px;
+}
+
+.photo {
+	margin-bottom: 50px;
+} 
+
+
+
+

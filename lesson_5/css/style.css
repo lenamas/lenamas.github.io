@@ -1,0 +1,124 @@
+html {
+	font-size: 10px;
+}
+
+body{
+	width: 800px;	
+}
+
+h1,h2{
+	font-family: 'MasonChronicles', arial;
+}
+
+/*ШАПКА	*/
+header{
+	height: 100vh;
+	display:table;
+	background: url(../img/kaermorhen.jpg) no-repeat;
+	background-size: cover;
+	background-position: 0% 50%;
+	width: 100vw;
+	text-transform: uppercase;
+}
+
+header h1 {
+	margin-bottom: 0;
+	font-size: 9rem;
+	padding-bottom: 0;
+	color: #f5f50f;
+}
+
+.header-title {
+	text-align: center;
+	display:table-cell;
+	vertical-align:middle;
+	background: rgba(0, 0, 0, 0.3);
+}
+
+.header-title p {
+	font-size: 2.5rem;
+}
+
+.header-author{
+	margin-bottom: 10rem;
+	color: #fff;
+}
+
+.header-subtitle{
+	margin: 1.5rem;
+	color:  #f5f50f;
+}
+
+.header-line {
+	width: 200px;
+	margin: 0 auto;
+	border-top: 4px double #979c0e;
+}
+
+/*ОГЛАВЛЕНИЕ*/
+nav, main{
+	width: 100vw;
+	text-align: center;
+}
+
+nav {
+	padding: 1rem 0;
+	background: #000;
+	color: #fff;
+}
+
+nav h2 {
+	color: #f5f50f;
+}
+
+nav h2, main h2 {
+	margin-top: 10rem;
+	font-size: 4rem;
+}
+nav ul {
+	padding: 0;
+	list-style: none;
+	font-size: 2.4rem;
+	line-height: 5rem;
+}
+
+nav li{
+	padding: 1rem 0;
+}
+
+nav a {
+	text-decoration: none;
+	color: #fff;
+}
+
+nav a:hover{
+	font-style: italic;
+}
+
+/*ТЕКСТ КНИГИ*/
+
+.chapter-title img{
+	width: 5rem;
+	display: inline-block;
+}
+
+.chapter-title h2 {
+	display: inline-block;
+	padding-left: 30px;
+}
+
+main p {
+	width: 900px;
+	margin: 2rem auto;
+	text-align: left;
+	font-size: 2.2rem;
+	line-height: 4rem;
+}
+
+.chapter div {
+	margin: 10px auto;
+}
+
+.chapter img {
+	width: 900px;
+}

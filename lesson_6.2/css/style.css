@@ -1,0 +1,16 @@
+div{
+	box-sizing: border-box;
+	padding-top:30px;
+	border: 2px solid #aeaeae;	
+	width: 300px;
+	height: 400px;
+	position: absolute;
+	left: 50%;
+	margin-left: -150px;
+	top: 50%;
+	margin-top: -200px;	
+}
+	
+	
+	
+	

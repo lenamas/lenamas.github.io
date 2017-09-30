@@ -1,0 +1,15 @@
+h1 {
+	font-size: 36px;
+	margin-top: 70px;
+	margin-bottom: 100px;
+}
+
+.feature {
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+.feature img {
+	height: 136px;
+	margin-bottom: 10px;
+}
