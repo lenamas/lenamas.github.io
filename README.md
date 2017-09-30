@@ -16,3 +16,5 @@
 [Урок 10](https://github.com/lenamas/lenamas.github.io/tree/master/lesson_10) - Препроцессор LESS для CSS
 
 [Урок 11](https://github.com/lenamas/lenamas.github.io/tree/master/lesson_11) - Сниппеты
+
+[Урок 13](https://lenamas.github.io/lesson_13/) - Адаптивная верстка
