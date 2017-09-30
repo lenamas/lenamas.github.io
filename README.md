@@ -18,3 +18,5 @@
 [Урок 11](https://github.com/lenamas/lenamas.github.io/tree/master/lesson_11) - Сниппеты
 
 [Урок 13](https://lenamas.github.io/lesson_13/) - Адаптивная верстка
+
+[Урок 13. Практика](https://lenamas.github.io/lesson_13_practice/index.html) - Подготовка файлов. Верстка шапки сайта.
