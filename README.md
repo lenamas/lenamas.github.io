@@ -19,6 +19,8 @@
 
 [Урок 13](https://lenamas.github.io/lesson_13/) - Адаптивная верстка
 
-[Урок 13. Практика](https://lenamas.github.io/lesson_13_practice/index.html) - Подготовка файлов. Верстка шапки сайта.
+[Урок 13. Практика_1](https://lenamas.github.io/lesson_13_practice/index.html) - Подготовка файлов. Верстка шапки сайта.
 
 [Урок 14](https://lenamas.github.io/lesson_14/) - Подключение шрифтов.
+
+[Урок_14. Практика_2](https://lenamas.github.io/lesson_14_practice/) - Подключение шрифтов. Верстка первого экрана.
