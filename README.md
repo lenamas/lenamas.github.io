@@ -24,3 +24,5 @@
 [Урок 14](https://lenamas.github.io/lesson_14/) - Подключение шрифтов.
 
 [Урок_14. Практика_2](https://lenamas.github.io/lesson_14_practice/) - Подключение шрифтов. Верстка первого экрана.
+
+[Урок 15](https://lenamas.github.io/lesson_15/) - Псевдоклассы и псевдоэлементы.
