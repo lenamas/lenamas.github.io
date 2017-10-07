@@ -42,9 +42,6 @@
 @border-input: #dddddd;
 
 /* Basic setting */
-*{
-	box-sizing: border-box;
-}
 
 html {
 	font-size: 10px;
@@ -232,6 +229,12 @@ section {
 			display: inline-block;
 			width: 85%;
 			font-size: 1.4rem;
+
+			a {
+				color: @icons-color;
+				// border-bottom: 1px solid @icons-color;
+				text-decoration: underline;
+			}
 		}
 	}
 
