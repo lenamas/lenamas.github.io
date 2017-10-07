@@ -42,6 +42,10 @@
 @border-input: #dddddd;
 
 /* Basic setting */
+*{
+	box-sizing: border-box;
+}
+
 html {
 	font-size: 10px;
 }
@@ -216,7 +220,6 @@ section {
 
 /* Оформление секции с преимуществами */
 .features {
-
 	&-block {
 		text-align: center;
 		h3 {
@@ -297,7 +300,11 @@ section {
 	.main {
 		background-position: top left;
 		&-title h1{
-			margin-top: 20rem;
+			margin-top: 15rem;
+		}
+
+		&-content-sub {
+			color: #000;
 		}
 	}
 
@@ -307,8 +314,18 @@ section {
 }
 
 @media (max-width: 600px)  {
-	html {
-		font-size: 6px;
+	.main {
+		&-title h1 {
+			font-size: 2.5rem;
+		}
+
+		&-subtitle {
+			font-size: 1.8rem;
+		}
+
+		&-trigger {
+			font-size: 2rem;
+		}
 	}
 }
 
