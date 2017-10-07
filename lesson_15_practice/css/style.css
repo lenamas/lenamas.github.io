@@ -180,16 +180,16 @@ section {
   .main {
     background-position: top left;
   }
+  .main-title h1 {
+    margin-top: 15rem;
+  }
   .header,
   .phone-block,
   .wrap-block {
     text-align: center;
   }
-  .header-btn {
-    margin-bottom: 7rem;
-  }
 }
-@media (max-width: 550px) {
+@media (max-width: 600px) {
   html {
     font-size: 6px;
   }
