@@ -30,3 +30,5 @@
 [Урок 15. Практика 3](https://lenamas.github.io/lesson_15_practice/) - Эффекты при наведении и адаптив первого экрана
 
 [Урок 16. Практика 4](https://lenamas.github.io/lesson_16_practice/) - Верстка блока с преимуществами. Слайдер
+
+[Урок 17. Практика 5](https://lenamas.github.io/lesson_17_practice/) - Верстка всплывающих окон на сайте
