@@ -1,0 +1,12 @@
+body {
+	background: url(../img/bg.jpg) no-repeat center;
+	background-size: cover;
+}
+
+.header {
+	font-size: 5rem;
+	text-align: center;
+	margin: 4rem auto;
+	font-weight: 700;
+	color: #18a7b5;
+} 
