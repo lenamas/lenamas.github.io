@@ -31,6 +31,8 @@
 
 [Урок 16. Практика 4](https://lenamas.github.io/lesson_16_practice/) - Верстка блока с преимуществами. Слайдер
 
+[Урок 17](https://lenamas.github.io/lesson_17/) - Всплывающие окна
+
 [Урок 17. Практика 5](https://lenamas.github.io/lesson_17_practice/) - Верстка всплывающих окон на сайте
 
 [Урок 18.1]() и [Урок 18.2](https://lenamas.github.io/lesson_18.2/) - Табы и аккордеон на сайте
