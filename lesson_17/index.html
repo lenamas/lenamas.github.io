@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Document</title>
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+	<body>
+	
+	<div class="section">
+		<button class="section-btn">Delete file</button>
+	</div>
+
+	<div class="popup">
+		<div class="popup-shadow">
+			<div class="popup-dialog">
+				<div class="popup-header">
+					<h2>Confirm</h2>
+					<span class="popup-close"></span>
+				</div>				
+
+				<div class="popup-content">			
+					<p>Are you sure to delete this file?</p>
+				</div>
+
+				<div class="popup-block">
+					<button class="popup-btn btn-yes">Yes</button>
+					<button class="popup-btn btn-no">No</button>
+				</div>				
+			
+			</div>
+		</div>
+	</div>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+	<script>
+		$(document).ready(function(){
+			$('.section-btn').on('click', function(event) {
+				event.preventDefault();
+				$('.popup').fadeIn();
+			});
+
+			$('.popup-close').on('click', function(event) {
+				event.preventDefault();
+				$('.popup').fadeOut();
+			});
+			
+		});
+	</script>
+
+	</body>
+</html>
