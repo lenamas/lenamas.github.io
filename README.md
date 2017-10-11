@@ -36,3 +36,5 @@
 [Урок 18.1]() и [Урок 18.2](https://lenamas.github.io/lesson_18.2/) - Табы и аккордеон на сайте
 
 [Урок 18. Практика 6](https://lenamas.github.io/lesson_18_practice/) - Верстка блока с ценами 
+
+[Урок 20](https//lenamas.github.io/lesson_20/) - Видео-фон на сайте
