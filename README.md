@@ -42,3 +42,5 @@
 [Урок 18. Практика 6](https://lenamas.github.io/lesson_18_practice/) - Верстка блока с ценами 
 
 [Урок 20](https://lenamas.github.io/lesson_20) - Видео-фон на сайте
+
+[Урок 22](https://lenamas.github.io/lesson_22/) - Гео-карты для сайта
