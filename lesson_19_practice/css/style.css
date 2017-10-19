@@ -277,7 +277,6 @@ section {
 }
 .feedback-prev-btn {
   left: -3rem;
-  z-index: 20;
 }
 .feedback-next-btn {
   right: -3rem;
