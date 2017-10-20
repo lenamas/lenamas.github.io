@@ -357,6 +357,7 @@ section {
 	
 	&-prev-btn {
 		left: -3rem;
+		z-index: 20;
 	}
 
 	&-next-btn {
@@ -379,10 +380,19 @@ section {
 			width: 2rem;
 			height: 2rem;
 			background-color: @white;
-			border: 2px solid @icons-color;
-			border-bottom: none;
-			border-top-right-radius: 100px;
-			
+			border-left: 2px solid @icons-color;
+			border-bottom: 2px solid @white;
+		}
+
+		&::after {
+			content: '';
+			position: absolute;
+			top: -2.3rem;
+			left: 4rem;
+			width: 2px;
+			height: 27px;
+			background-color: @icons-color;
+			transform: rotate(-50deg);
 		}
 	}
 
