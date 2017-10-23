@@ -475,9 +475,6 @@ section {
   background: #ffffff url(../img/materials/materials-bg.jpg) center no-repeat;
   background-size: cover;
 }
-.materials-slider {
-  padding-top: 5rem;
-}
 .materials img {
   display: block;
   margin: 0 auto;
