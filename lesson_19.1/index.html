@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+  <link rel="stylesheet" href="css/animate.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<div class="tabs">
+    
+  	<!-- <div class="tabs-nav"> -->
+      <input id="tab1" type="radio" name="tabs" checked>
+      <label for="tab1"  title="Вкладка 1">Вход</label>
+      
+      <input id="tab2"  type="radio" name="tabs">
+      <label for="tab2" title="Вкладка 2">Регистрация</label>
+    <!-- </div>     -->
+ 
+    <div class="tabs-wrap tabs-wrap-1">
+    	<section class="tabs-content wow bounceIn" data-wow-duration="1s">
+        <input class="tabs-input wow flipInX" data-wow-duration="1s" data-wow-delay="0.7s" type="text" placeholder="Ваше имя">
+  			<input class="tabs-input wow flipInX" data-wow-duration="1s" data-wow-delay="0.7s" type="text" placeholder="Пароль">
+
+  			<a href="#">Забыли пароль?</a>
+  			<input class="tabs-remember" type="checkbox">
+  			<label class="tabs-remember" for="#">Напомнить мне</label>
+
+  			<button class="tabs-btn wow zoomIn" data-wow-duration="1s" data-wow-delay="0.7s">Войти</button>
+      </section> 
+    </div> 
+
+    <div class="tabs-wrap tabs-wrap-2">
+      <section class="tabs-content wow fadeInDown" data-wow-duration="1s">
+        <input class="tabs-input wow tada" type="e-mail" data-wow-duration="1s" data-wow-delay="1s" placeholder="Ваш e-mail">
+        <input class="tabs-input wow tada" type="text" data-wow-duration="1s" data-wow-delay="1s" placeholder="Введите пароль">
+        <input class="tabs-input wow tada" type="text" data-wow-duration="1s" data-wow-delay="1s" placeholder="Повторите пароль">
+
+        <button class="tabs-btn wow lightSpeedIn" data-wow-duration="1s" data-wow-delay="1s">Зарегистрироваться</button>
+      </section> 
+    </div>
+      
+  </div>
+
+
+  <script src="js/wow.min.js"></script>
+  <script>
+    var wow = new WOW;
+    wow.init();
+  </script>
+   <!-- <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+
+   <script>
+     $(function() {
+       $('.tabs-nav').on('click')
+     })
+   </script> -->
+</body>
+</html>
