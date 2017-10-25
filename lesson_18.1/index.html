@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<div class="tabs">
+    
+  	<!-- <div class="tabs-nav"> -->
+      <input id="tab1" type="radio" name="tabs" checked>
+      <label for="tab1"  title="Вкладка 1">Вход</label>
+      
+      <input id="tab2"  type="radio" name="tabs">
+      <label for="tab2" title="Вкладка 2">Регистрация</label>
+    <!-- </div>     -->
+ 
+    <div class="tabs-wrap tabs-wrap-1">
+    	<section class="tabs-content">
+        <input class="tabs-input" type="text" placeholder="Ваше имя">
+  			<input class="tabs-input" type="text" placeholder="Пароль">
+
+  			<a href="#">Забыли пароль?</a>
+  			<input class="tabs-remember" type="checkbox">
+  			<label class="tabs-remember" for="#">Напомнить мне</label>
+
+  			<button class="tabs-btn">Войти</button>
+      </section> 
+    </div> 
+
+    <div class="tabs-wrap tabs-wrap-2">
+      <section class="tabs-content">
+        <input class="tabs-input" type="e-mail" placeholder="Ваш e-mail">
+        <input class="tabs-input" type="text" placeholder="Введите пароль">
+        <input class="tabs-input" type="text" placeholder="Повторите пароль">
+
+        <button class="tabs-btn">Зарегистрироваться</button>
+      </section> 
+    </div>
+      
+  </div>
+
+   <!-- <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+
+   <script>
+     $(function() {
+       $('.tabs-nav').on('click')
+     })
+   </script> -->
+</body>
+</html>

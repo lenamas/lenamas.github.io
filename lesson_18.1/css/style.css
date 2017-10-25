@@ -1,0 +1,186 @@
+@font-face {
+	font-family: 'Myriad Pro';
+	src: url('../fonts/MyriadPro-Regular.eot');
+	src: url('../fonts/MyriadPro-Regular.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/MyriadPro-Regular.woff2') format('woff2'),
+		url('../fonts/MyriadPro-Regular.woff') format('woff'),
+		url('../fonts/MyriadPro-Regular.ttf') format('truetype'),
+		url('../fonts/MyriadPro-Regular.svg#MyriadPro-Regular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	font-family: 'Myriad Pro';
+	// background-color: #000;
+	background: #000 url(../img/bg.jpg) center no-repeat;
+	background-size: cover;
+}
+
+/* Базовый контейнер табов */
+.tabs {
+	min-width: 320px;
+	max-width: 800px;
+	padding: 0px;
+	margin: 3rem 4rem;
+}
+
+.tabs>input+label {
+	position: relative;
+	display: inline-block;
+	left: 25px;
+	top: 1px;
+}
+
+/* Прячем чекбоксы */
+.tabs>input {
+	display: none;
+	height: 36px;
+	position: absolute;
+}
+/* Стили переключателей вкладок (табов) */
+.tabs>label {
+	margin: 0 0 -1px;
+	padding: 8px 20px;
+	font-size: 24px;
+	text-align: center;
+	color: #000;
+	background: #fff;
+	border-radius: 8px 8px 0 0;
+}
+/* Изменения стиля переключателей вкладок при наведении */
+ 
+.tabs-nav>label:hover {
+	color: #fff;
+	background-color: #0498c6;
+	cursor: pointer;
+	text-shadow: 0px 2px 1px rgba(0, 0, 0, 0.75);
+}
+
+.tabs-wrap {
+	display: none;
+	border: 1px solid #047ca0;
+	background-color: #039fd1;
+	border-radius: 5px;
+}
+
+.tabs-wrap-1 {
+	width: 620px;
+	height: 400px;
+}
+
+.tabs-wrap-1>.tabs-content {
+	width: 580px;
+	height: 360px;
+}
+
+.tabs-wrap-2 {
+	width: 620px;
+	height: 460px;
+}
+
+.tabs-wrap-2>.tabs-content {
+	width: 580px;
+	height: 420px;
+}
+
+.tabs-content {
+	// display: none;
+	position: relative;
+	left: 20px;
+	top: 20px;
+	
+	padding: 3.5rem 3rem;
+
+	background: #000;
+	border: 1px solid #7dd7f4;
+	margin: 0;
+	line-height: 1.5;
+	color: #383838;
+}
+
+.tabs-input, .tabs-content>a, .tabs-btn{
+	display: block;
+}
+
+/* Стили для активной вкладки */
+.tabs input:checked+label {
+	color: #fff;
+	background-color: #039fd1;
+	cursor: pointer;
+	text-shadow: 0px 2px 1px rgba(0, 0, 0, 0.75);
+	
+	border-top: 1px solid #84d4ee;
+	border-radius: 4px 4px 0 0;
+}
+
+#tab1:checked ~ .tabs-wrap-1, #tab2:checked ~ .tabs-wrap-2 {
+	display: block;
+}
+
+
+.tabs-input {
+	width: 100%;
+	background: #1a1919;
+	border: none;
+	color: #fff;
+	padding: 1rem;
+	font-size: 24px;
+	margin-bottom: 2rem;
+}
+
+::-webkit-input-placeholder { /* WebKit browsers */
+   color: #fff;
+   font-family: 'Myriad Pro';
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color: #fff;
+    font-family: 'Myriad Pro';
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color: #fff;
+    font-family: 'Myriad Pro';
+}
+:-ms-input-placeholder { /* Internet Explorer 10+ */
+    color: #fff;
+    font-family: 'Myriad Pro';
+}
+
+.tabs-wrap a {
+	margin-left: 1.5rem;
+	text-decoration: none;
+	color: #f00;
+}
+
+.tabs-wrap a:hover {
+	color: #900;
+}
+
+.tabs-remember {
+	
+	margin-top: 2.7rem;
+	color:  #6f6d6d;
+	cursor: pointer;	
+}
+
+.tabs-btn {
+	background: -webkit-radial-gradient(circle farthest-side at 50%, #cf2303 0%, #7f0501 100%);
+	background: -moz-radial-gradient(circle farthest-side at 50%, #cf2303 0%, #7f0501 100%);
+	background: -o-radial-gradient(circle farthest-side at 50%, #cf2303 0%, #7f0501 100%);
+	background: -ms-radial-gradient(circle farthest-side at 50%, #cf2303 0%, #7f0501 100%);
+	background: radial-gradient(circle farthest-side at 50%, #cf2303 0%, #7f0501 100%);
+
+	padding: 0.5rem 2rem;
+	font-family: 'Myriad Pro';
+	color:  #fff;
+	font-size: 1.5rem;
+	border: none;
+	position: absolute;
+	right: -2.5rem;
+	bottom: 1rem;
+}
